@@ -9,7 +9,7 @@ client = discord.Client(intents=intents)
 bot = commands.Bot(
     command_prefix = '!',
     intents=intents,
-    activity = Activity(type=ActivityType.playing, name='funny henti games')
+    activity = Activity(type=ActivityType.playing, name='made by renderings')
 )
 
 @bot.command(name='spam', help='Spams the input message for x number of times')
